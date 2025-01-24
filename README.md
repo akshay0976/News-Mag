@@ -14,7 +14,7 @@ This is a simple React component that displays news items in a card format. Each
 
 ## Project Screenshot
 
-![News App Screenshot](./assets/screenshot.png)
+![News App Screenshot](screenshot.png)
 
 
 ## Project Structure
