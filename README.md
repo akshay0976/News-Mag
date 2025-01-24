@@ -1,8 +1,22 @@
-# React + Vite
+# News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React component that displays news items in a card format. Each news item includes an image, title, description, and a link to read more.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays a news item with:
+  - Image (with a fallback if no image URL is provided)
+  - Title (truncated to 50 characters)
+  - Description (truncated to 90 characters, with a default placeholder)
+  - "Read More" button linking to the full article
+- Responsive card styling using Bootstrap
+- Dark-themed card design with light text
+
+## Project Screenshot
+
+![News App Screenshot](./assets/screenshot.png)
+
+> **Note:** Replace `screenshot.png` in the `assets/` folder with your actual project screenshot.
+
+## Project Structure
+
